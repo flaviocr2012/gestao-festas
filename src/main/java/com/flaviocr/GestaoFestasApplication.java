@@ -14,12 +14,10 @@ public class GestaoFestasApplication {
 
 }
 
-/** Spring Boot Application
- * Essa anotação diz que a classe faz parte da configuração do Spring.
- * O Spring Boot sugere o uso de um container embarcado (por
- * padrão é o Tomcat) para facilitar o desenvolvimento.
- * A anotação define o ponto de partida para a procura dos demais componentes da aplicação e se
- * algum componente Spring for encontrado, será gerenciado.
- *
-
- */
+///** Spring Boot Application
+// * Essa anotação diz que a classe faz parte da configuração do Spring.
+// * O Spring Boot sugere o uso de um container embarcado (por
+// * padrão é o Tomcat) para facilitar o desenvolvimento.
+// * A anotação define o ponto de partida para a procura dos demais componentes da aplicação e se
+// * algum componente Spring for encontrado, será gerenciado.
+// */

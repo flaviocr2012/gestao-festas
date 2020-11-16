@@ -9,7 +9,7 @@ public class InMemorySecurityConfig {
 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder builder)
-        throws Exception{
+            throws Exception {
         builder
                 .inMemoryAuthentication()
                 .withUser("joao").password("123").roles("USER")
@@ -19,4 +19,3 @@ public class InMemorySecurityConfig {
                 .withUser("thiago").password("123").roles("USER");
     }
 }
-
